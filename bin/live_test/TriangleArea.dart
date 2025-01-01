@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main() {
   try {
-    print("Let's calculate the area of the triangle");
+    print("Let's calculate the area of the triangle.");
     print("Enter length of base:");
     int? base = int.tryParse(stdin.readLineSync()!);
     print("Enter length of height:");
